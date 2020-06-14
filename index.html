@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Pixel Art Maker</h1>
-
+    <link href="css/styles.css" rel="stylesheet">
     <h2>Choose Grid Size</h2>
     <form id="sizePicker">
         Grid Height:
@@ -15,6 +15,7 @@
         Grid Width:
         <input type="number" id="inputWidth" name="width" min="1" value="1">
         <input type="submit">
+        <input type="button" value="Reset" onClick="window.location.reload()">
     </form>
 
     <h2>Pick A Color</h2>
@@ -31,9 +32,11 @@
 
 
     </table>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="designs.js"></script>
+    <script>
+        
+    </script>
     
+    
+    <script src="js/designs.js"></script>
 </body>
 </html>
